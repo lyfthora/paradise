@@ -84,7 +84,7 @@ list-style: none;
 button {    
     padding: 5px 30px;
     background-color: rgba(0,0,0,1);
-    border-width: 1px;
+    border-width: 0px;
     border-radius: 0px;
     cursor: pointer;
     transition: all 0s ease 0s;
