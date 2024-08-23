@@ -210,3 +210,18 @@ body, html {
     font-size: 14px;
     margin-left: 30px;
   }
+
+@media (max-width: 900px) {
+
+.login-content .box .logo {
+  margin-left: 65px;
+}
+
+
+.login-content .box .form {
+  margin-left: 35px;
+}
+
+}
+
+

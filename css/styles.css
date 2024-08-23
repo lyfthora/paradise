@@ -194,29 +194,45 @@ transform: translate(-50%, -50%);
   }
 
   @media (max-width: 900px) {
-   .logo{
-    width: 300px;
-   }
-   li, a, button {
-    font-size: 25px;
-   }
-
-   .type{
-    font-size: 20px;
-   }
-
-   h1 {
-    font-size: 23px;
-   }
-   p{
-    font-size: 17px;
-   }
-
-   .neofetch{
-    font-size: 18px;
-    width: 900px;
-    padding: 20px 0px;
-   }
-    
-    }
   
+    li, a, button {
+     font-size: 10px;
+
+    }
+    .navlinks li {
+    display: inline-block;
+    padding: 0px 0px;
+    }
+    .info {
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 100px;
+      width: 350px;
+    }
+  .center  {
+    height: 350px;
+    width: 350px;
+  }
+ 
+    .type{
+     font-size: 12px;
+    }
+ 
+    h1 {
+     font-size: 13px;
+    }
+    p{
+     font-size: 12px;
+    }
+    .center2{
+      top: 60%;
+    }
+ 
+    .neofetch{
+    display: none;
+    }
+    
+     
+     }
+   
