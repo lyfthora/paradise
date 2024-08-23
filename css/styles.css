@@ -192,3 +192,31 @@ transform: translate(-50%, -50%);
   html {
   scrollbar-gutter: stable;
   }
+
+  @media (max-width: 768px) {
+   .logo{
+    width: 300px;
+   }
+   li, a, button {
+    font-size: 25px;
+   }
+
+   .type{
+    font-size: 20px;
+   }
+
+   h1 {
+    font-size: 23px;
+   }
+   p{
+    font-size: 17px;
+   }
+
+   .neofetch{
+    font-size: 18px;
+    width: 900px;
+    padding: 20px 0px;
+   }
+    
+    }
+  
