@@ -1,239 +1,232 @@
-@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url("https://fonts.googleapis.com/css?family=IBM+Plex+Mono");
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    background-color: #000000;
-    font-family: "IBM Plex Mono";
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  font-family: "IBM Plex Mono";
 }
 
-
-li, a, button {
-    
-font-family: "IBM Plex Mono";
-font-weight: lighter;
-font-size: 11px;
-color: #FFFFFF;
-text-decoration: none;
+li,
+a,
+button {
+  font-family: "IBM Plex Mono";
+  font-weight: lighter;
+  font-size: 11px;
+  color: #ffffff;
+  text-decoration: none;
 }
 
 p {
-    font-size: 11px;
-    text-align: center;
-    text-justify: inter-word;
-    background: none;
+  font-size: 11px;
+  text-align: center;
+  text-justify: inter-word;
+  background: none;
 }
 
 h1 {
-font-size: 11px;
-color: white;
-font-family: "IBM Plex Mono";
-padding-bottom: 20px;
-font-weight: lighter;
-text-align: center;
-background: none;
+  font-size: 11px;
+  color: white;
+  font-family: "IBM Plex Mono";
+  padding-bottom: 20px;
+  font-weight: lighter;
+  text-align: center;
+  background: none;
 }
 
 header {
- display: flex;
-justify-content: flex-end;
-    align-items: center;
-    padding: 15px 3%;
-    
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 15px 3%;
 }
 
-.footer{
-position: fixed;
-left: 0;
-bottom: 0;
-width: 100%;
-color: white;
-text-align: center;
-font-size: 10px;  
-margin-bottom: 15px;
-    
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  margin-bottom: 15px;
 }
 
 .logo {
-    width: 100px;
-    cursor: pointer;
-    margin-right: auto;
-    z-index: 1;
+  width: 100px;
+  cursor: pointer;
+  margin-right: auto;
+  z-index: 1;
 }
 
 .navlinks {
-    
-list-style: none;
-    
+  list-style: none;
 }
 
 .navlinks li {
-    display: inline-block;
-    padding: 0px 20px;
+  display: inline-block;
+  padding: 0px 20px;
 }
 
 .navlinks li a {
-    transition: all 0s ease 0s;
+  transition: all 0s ease 0s;
 }
 
 .navlinks li a:hover {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
-button {    
-    padding: 5px 30px;
-    background-color: rgba(0,0,0,1);
-    border-width: 0px;
-    border-radius: 0px;
-    cursor: pointer;
-    transition: all 0s ease 0s;
-    margin-left: 20px;
-    margin-top: 5px;
+button {
+  padding: 5px 30px;
+  background-color: rgba(0, 0, 0, 1);
+  border-width: 0px;
+  border-radius: 0px;
+  cursor: pointer;
+  transition: all 0s ease 0s;
+  margin-left: 20px;
+  margin-top: 5px;
 }
 
 button:hover {
-background-color: white;
-color: black;
-border-radius: 0px;
-border-width: 1px;
-padding: 5px 30px;
-text-align: center;
-text-decoration: underline;
+  background-color: white;
+  color: black;
+  border-radius: 0px;
+  border-width: 1px;
+  padding: 5px 30px;
+  text-align: center;
+  text-decoration: underline;
 }
 
 .center {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-        transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .center2 {
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .info {
-background: none;
-border: 1px solid white;       
-padding: 20px 20px;    
-width: 600px;
-z-index: 2;
-    position:absolute;
-		top: 20%;
-		left: 50%;
-        transform: translate(-50%, -50%);
-    }
+  background: none;
+  border: 1px solid white;
+  padding: 20px 20px;
+  width: 600px;
+  z-index: 2;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 
-table, td {
-    padding: 15px;
+table,
+td {
+  padding: 15px;
 }
 
 .neofetch {
-font-family: "IBM Plex Mono";
-white-space: pre;
-border: 1px solid white;
-font-size: 10px;
-padding: 20px 40px;
-position: absolute;
-top: 100%;
-left: 50%;
-transform: translate(-50%, -50%);
-background-color: #000000;
-z-index: 1;
+  font-family: "IBM Plex Mono";
+  white-space: pre;
+  border: 1px solid white;
+  font-size: 10px;
+  padding: 20px 40px;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #000000;
+  z-index: 1;
 }
 
-.row{
-margin: 70px;
-position: absolute;
-top: 125%;
-left: 50%;
-transform: translate(-50%, -50%);
+.row {
+  margin: 70px;
+  position: absolute;
+  top: 125%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .type {
-    animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
-    background: none;
-  }
-  
-  @keyframes typing {
-    from {
-      width: 100%;
-    }
-    to {
-      width: 100%;
-    }
-  }
-  
-  @keyframes blink-caret {
-    from, to {
-      border-color: transparent;
-    }
-    50% {
-      border-color: #333;
-    }
-  }
-  ::-webkit-scrollbar {
-    width: 3px;
-    
-  }
-  
-  ::-webkit-scrollbar-track {
-    background: #000000;
-  }
+  animation: typing 3s steps(40, end), blink-caret 0.75s step-end infinite;
+  background: none;
+}
 
-  ::-webkit-scrollbar-thumb {
-    background: #FFFFFF;
+@keyframes typing {
+  from {
+    width: 100%;
   }
+  to {
+    width: 100%;
+  }
+}
 
-  html {
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: #333;
+  }
+}
+::-webkit-scrollbar {
+  width: 3px;
+}
+
+::-webkit-scrollbar-track {
+  background: #000000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ffffff;
+}
+
+html {
   scrollbar-gutter: stable;
+}
+
+@media (max-width: 900px) {
+  li,
+  a,
+  button {
+    font-size: 10px;
   }
-
-  @media (max-width: 900px) {
-  
-    li, a, button {
-     font-size: 10px;
-
-    }
-    .navlinks li {
+  .navlinks li {
     display: inline-block;
     padding: 0px 0px;
-    }
-    .info {
-      top: 20%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      height: 100px;
-      width: 350px;
-    }
-  .center  {
+  }
+  .info {
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 100px;
+    width: 350px;
+  }
+  .center {
     height: 350px;
     width: 350px;
   }
- 
-    .type{
-     font-size: 12px;
-    }
- 
-    h1 {
-     font-size: 13px;
-    }
-    p{
-     font-size: 12px;
-    }
-    .center2{
-      top: 60%;
-    }
- 
-    .neofetch{
+
+  .type {
+    font-size: 12px;
+  }
+
+  h1 {
+    font-size: 13px;
+  }
+  p {
+    font-size: 12px;
+  }
+  .center2 {
+    top: 60%;
+  }
+
+  .neofetch {
     display: none;
-    }
-    
-     
-     }
-   
+  }
+}
