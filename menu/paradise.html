@@ -1,62 +1,91 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="robots" content="noindex, nofollow">
+    <meta name="robots" content="noindex, nofollow" />
 
-    <title>        Sign in to paradise.pw
-</title>
-            <link href="styleslogin.css" rel="stylesheet" />
-</head>
-	<body>
-<link rel="stylesheet"
-  href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono">
-        <script>
-            function togglePassword() {
-                var x = document.getElementById("password");
-                var v = document.getElementById("vi");
-                if (x.type === "password") {
-                    x.type = "text";
-                    v.src = "../img/eye.png";
-                } else {
-                    x.type = "password";
-                    v.src = "../img/eye-off.png";
-                }
-            }
-        </script>
-        <div class="login-content" style="background-image: url(&quot;/resources/5y6qb/login/alfresco/img/background.svg&quot;);">
-            <div class="box">
-        <div class="fade-in">
-            <a href="../index.html"><img class="logo" style="width:250px" src="../img/banner1.png"></a>
-        </div>
-        <div class="box-container fade-in">
+    <title>Sign in to paradise.pw</title>
+    <link href="styleslogin.css" rel="stylesheet" />
+  </head>
+  <body>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono"
+    />
+    <script>
+      function togglePassword() {
+        var x = document.getElementById("password");
+        var v = document.getElementById("vi");
+        if (x.type === "password") {
+          x.type = "text";
+          v.src = "../img/eye.png";
+        } else {
+          x.type = "password";
+          v.src = "../img/eye-off.png";
+        }
+      }
+    </script>
+    <div class="login-content" ;">
+    <div class="box">
+      <div class="fade-in">
+        <a href="../index.html"
+          ><img class="logo" style="width: 250px" src="../img/banner1.png"
+        /></a>
+      </div>
+      <div class="box-container fade-in">
+        <div></div>
+        <div>
+          <form
+            id="kc-form-login"
+            class="form"
+            method="post"
+            onsubmit="return false"
+          >
+            <input
+              id="username"
+              class="login-field"
+              style="font-family: IBM Plex Mono"
+              placeholder="username"
+              type="text"
+              name="username"
+              tabindex="1"
+            />
             <div>
-             
+              <label class="visibility" id="v" onclick="togglePassword()"
+                ><img id="vi" src="../img/eye-off.png"
+              /></label>
             </div>
-            <div>
-               <form id="kc-form-login" class="form"  method="post" onsubmit="return false">
-                    <input id="username" class="login-field" style="font-family: IBM Plex Mono" placeholder="username" type="text" name="username" tabindex="1">
-                    <div>
-                        <label class="visibility" id="v" onclick="togglePassword()"><img id="vi" src="../img/eye-off.png"></label>
-                    </div>
-                <input id="password" class="login-field" style="font-family: IBM Plex Mono" placeholder="password" type="password" name="password" tabindex="2">
-                <input class="submit" style="font-size: 14px; width: 257px" type="submit" value="login" tabindex="3" onclick="loginFunction()">
-                </form>
-                
-            </div>
-        <div id="fade-in" class="footer">
-            
+            <input
+              id="password"
+              class="login-field"
+              style="font-family: IBM Plex Mono"
+              placeholder="password"
+              type="password"
+              name="password"
+              tabindex="2"
+            />
+            <input
+              class="submit"
+              style="font-size: 14px; width: 257px"
+              type="submit"
+              value="login"
+              tabindex="3"
+              onclick="loginFunction()"
+            />
+          </form>
         </div>
-            </div> 
-        </div>
-        <script>
-            function loginFunction() {
-    
-                window.location.href = "paradise.html";
-            }
-            </script>
-	</body>
+        <div id="fade-in" class="footer"></div>
+      </div>
+    </div>
+    <script>
+      function loginFunction() {
+        window.location.href = "paradise.html";
+      }
+    </script>
+  </body>
 </html>
