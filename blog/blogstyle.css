@@ -1,0 +1,58 @@
+* {
+  background-color: initial;
+}
+
+.infoFaker {
+  background: none;
+  border: 1px solid white;
+  padding: 20px 20px;
+  width: 600px;
+  z-index: 2;
+  position: absolute;
+  top: 62%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.infoS4 {
+  background: none;
+  border: 1px solid white;
+  padding: 20px 20px;
+  width: 600px;
+  z-index: 2;
+  position: absolute;
+  top: 124%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.textinitial {
+  text-align: initial;
+}
+
+.s4link {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.date {
+  font-size: 9px;
+  line-height: 0px;
+  margin: 0px;
+}
+.author {
+  font-size: 16px;
+  line-height: 40px;
+  padding-bottom: 5px;
+  margin: 0px;
+}
+
+h5 {
+  text-align: center;
+  color: white;
+}
+
+.title {
+  padding-bottom: 0px;
+}
