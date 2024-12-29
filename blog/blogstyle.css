@@ -56,6 +56,46 @@
 .byox {
   font-size: 11px;
 }
+
+/* loveletter */
+
+.infoLoveletter {
+  background: none;
+  border: 1px solid white;
+  padding: 20px 20px;
+  width: 600px;
+  z-index: 2;
+  position: absolute;
+  top: 252%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* overflow: scroll; */
+}
+
+.infoLoveletter pre,
+code {
+  /* letter-spacing: 0.1em;
+  text-align: left; */
+  font-size: 11px;
+  text-align: justify;
+}
+.pruebaxd {
+  position: sticky;
+  top: 0;
+
+  z-index: 10;
+}
+
+.content {
+  overflow-y: auto;
+
+  /* max-height: 400px */
+}
+
+.content::-webkit-scrollbar {
+  height: 6px;
+}
+
 .date {
   font-size: 9px;
   line-height: 0px;
@@ -67,13 +107,20 @@
   padding-bottom: 5px;
   margin: 0px;
 }
+.title {
+  padding-bottom: 0px;
+  font-size: 15px;
+}
+.title,
+.author,
+.date {
+  text-align: center;
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
+}
 
 h5 {
   text-align: center;
   color: white;
-}
-
-.title {
-  padding-bottom: 0px;
-  font-size: 15px;
 }
