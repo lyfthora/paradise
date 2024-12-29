@@ -2,6 +2,8 @@
   background-color: initial;
 }
 
+/* faker */
+
 .infoFaker {
   background: none;
   border: 1px solid white;
@@ -13,6 +15,8 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+
+/* s4 */
 
 .infoS4 {
   background: none;
@@ -35,7 +39,23 @@
   justify-content: center;
   text-align: center;
 }
+/* anaya */
 
+.infoAnaya {
+  background: none;
+  border: 1px solid white;
+  padding: 20px 20px;
+  width: 600px;
+  z-index: 2;
+  position: absolute;
+  top: 174%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.byox {
+  font-size: 11px;
+}
 .date {
   font-size: 9px;
   line-height: 0px;
@@ -55,4 +75,5 @@ h5 {
 
 .title {
   padding-bottom: 0px;
+  font-size: 15px;
 }
