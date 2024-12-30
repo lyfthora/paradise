@@ -1,8 +1,5 @@
 const typewriterText = document.querySelector(".type");
-const phrases = [
-  "© paradise.pw 2024",
-  "one step beyond"
-];
+const phrases = ["\u00A0 © paradise.pw 2024", "\u00A0 one step beyond"];
 
 let phraseIndex = 0;
 let characterIndex = 0;
@@ -18,12 +15,16 @@ function type() {
 }
 
 function erase() {
-  if (characterIndex > 0) {
-    typewriterText.textContent = phrases[phraseIndex].substring(0, characterIndex - 1);
+  if (characterIndex > 1) {
+    typewriterText.textContent = phrases[phraseIndex].substring(
+      0,
+      characterIndex - 1
+    );
     characterIndex--;
     setTimeout(erase, 50);
   } else {
     phraseIndex = (phraseIndex + 1) % phrases.length;
+    characterIndex = 0;
     setTimeout(type, 250);
   }
 }
