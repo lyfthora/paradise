@@ -135,11 +135,11 @@ code {
 }
 
 .brayan {
-  letter-spacing: -0.01em;
+  /* letter-spacing: -0.01em; */
   font-size: 12px;
 }
 .brayan b {
-  letter-spacing: -0.01em;
+  /* letter-spacing: -0.01em; */
 }
 
 /* arch */
@@ -260,16 +260,16 @@ h5 {
 
     .infoS4 {
       position: absolute;
-      top: 160%;
+      top: calc(64% + 100% + 25px);
       left: 50%;
       transform: translate(-50%, -50%);
       max-width: 90%;
-      padding: 15px;
+      /* padding: 15px; */
     }
 
     .infoAnaya {
       position: absolute;
-      top: 250%;
+      top: calc(164% + 100% + 25px);
       left: 50%;
       transform: translate(-50%, -50%);
       max-width: 90%;
@@ -278,7 +278,7 @@ h5 {
 
     .infoLoveletter {
       position: absolute;
-      top: 300%;
+      top: calc(264% + 127% + 25px);
       left: 50%;
       transform: translate(-50%, -50%);
       max-width: 90%;
@@ -287,7 +287,7 @@ h5 {
 
     .infoRayan {
       position: absolute;
-      top: 280%;
+      top: calc(381% + 153% + 25px);
       left: 50%;
       transform: translate(-50%, -50%);
       max-width: 90%;
@@ -296,7 +296,7 @@ h5 {
 
     .infoArch {
       position: absolute;
-      top: 340%;
+      top: calc(534% + 110% + 25px);
       left: 50%;
       transform: translate(-50%, -50%);
       max-width: 90%;
@@ -304,8 +304,29 @@ h5 {
     }
   }
 
+  .neofetchArch {
+    display: none;
+  }
+
   .fakerGod {
     font-size: 10px;
+  }
+
+  /* .footerMobile {
+    background-color: white;
+    position: absolute;
+    top: 674%;
+  } */
+  .footerBlog {
+    position: absolute;
+    width: 100%;
+    color: white;
+    top: 699%;
+    text-align: center;
+    font-size: 10px;
+    padding: 10px;
+    margin-top: 20px;
+    /* bottom: 0; */
   }
 }
 @media (max-width: 411px) {
@@ -313,12 +334,29 @@ h5 {
     max-width: 351px;
   }
   .infoFaker {
+    margin-top: 25px;
     max-width: 351px;
     overflow: auto;
   }
+  /* .infoLoveletter {
+    overflow: auto;
+  } */
 
   .infoS4,
-  .infoAnaya {
+  .infoAnaya,
+  .infoLoveletter,
+  .infoRayan,
+  .infoArch {
     max-width: 351px;
+  }
+  .footerBlog {
+    position: absolute;
+    width: 100%;
+    color: white;
+    text-align: center;
+    top: 699%;
+    font-size: 10px;
+    padding: 10px;
+    margin-top: 20px;
   }
 }
