@@ -2,12 +2,12 @@
   background-color: initial;
 }
 
-
 .info-container {
-  display: grid; 
-  grid-template-columns: 1fr; 
-  gap: 35px; 
-  margin: 50px; 
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 35px;
+  margin: 50px;
+  margin-bottom: 125px;
 }
 /* faker */
 
@@ -143,17 +143,16 @@ code {
   transform: translate(-50%, -50%);
 }
 
-.archbtw{
+.archbtw {
   /* letter-spacing: 2px; */
   /* text-align: justify;  braahhhhhhhhhh*/
   font-size: 12px;
 }
-.archbtw b{
+.archbtw b {
   color: aqua;
 }
 
 .neofetchArch {
- 
   white-space: pre;
   border: 1px solid white;
   position: relative;
@@ -163,25 +162,23 @@ code {
   color: white;
   /* border-radius: 5px; */
   /* max-width: 90%; */
-
 }
 
 .neofetch-text {
   font-family: "IBM Plex Mono", monospace;
-    white-space: pre;
-    font-size: 10px;
-    position: relative;  
-    margin: 15px 0px 0px -30px;
-    padding: 1px;
-    color: white;
-    
-/* text-align: justify; brahhhh */
-    height: 346px;
-    /* max-width: 90%; */
-    
-    letter-spacing: 1px;
-}
+  white-space: pre;
+  font-size: 10px;
+  position: relative;
+  margin: 15px 0px 0px -30px;
+  padding: 1px;
+  color: white;
 
+  /* text-align: justify; brahhhh */
+  height: 346px;
+  /* max-width: 90%; */
+
+  letter-spacing: 1px;
+}
 
 .date {
   font-size: 10px;
@@ -210,4 +207,14 @@ code {
 h5 {
   text-align: center;
   color: white;
+}
+
+.footerBlog {
+  position: relative; 
+  width: 100%;
+  color: white;
+  text-align: center;
+  font-size: 10px;
+  padding: 10px;
+  margin-top: 20px; 
 }
