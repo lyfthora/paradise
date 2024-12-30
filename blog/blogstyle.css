@@ -269,7 +269,7 @@ h5 {
 
     .infoAnaya {
       position: absolute;
-      top: 180%;
+      top: 250%;
       left: 50%;
       transform: translate(-50%, -50%);
       max-width: 90%;
@@ -278,7 +278,7 @@ h5 {
 
     .infoLoveletter {
       position: absolute;
-      top: 240%;
+      top: 300%;
       left: 50%;
       transform: translate(-50%, -50%);
       max-width: 90%;
