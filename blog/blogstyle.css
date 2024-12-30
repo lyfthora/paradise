@@ -66,7 +66,7 @@
   width: 600px;
   z-index: 2;
   position: absolute;
-  top: 252%;
+  top: 250%;
   left: 50%;
   transform: translate(-50%, -50%);
   /* overflow: scroll; */
@@ -96,6 +96,27 @@ code {
   height: 6px;
 }
 
+/* rayan */
+
+.infoRayan {
+  background: none;
+  border: 1px solid white;
+  padding: 20px 20px;
+  width: 600px;
+  z-index: 2;
+  position: absolute;
+  top: 329%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.brayan {
+  letter-spacing: -0.01em;
+  font-size: 11px;
+}
+.brayan b {
+  letter-spacing: -0.01em;
+}
 .date {
   font-size: 9px;
   line-height: 0px;
