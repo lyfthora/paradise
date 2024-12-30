@@ -2,6 +2,18 @@
   background-color: initial;
 }
 
+.infoBlog {
+  background: none;
+  border: 1px solid white;
+  padding: 20px 20px;
+  width: 600px;
+  z-index: 2;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 .info-container {
   display: grid;
   grid-template-columns: 1fr;
@@ -13,6 +25,7 @@
 
 .infoFaker {
   background: none;
+  max-width: 90%;
   border: 1px solid white;
   padding: 20px 20px;
   width: 600px;
@@ -210,11 +223,102 @@ h5 {
 }
 
 .footerBlog {
-  position: relative; 
+  position: relative;
   width: 100%;
   color: white;
   text-align: center;
   font-size: 10px;
   padding: 10px;
-  margin-top: 20px; 
+  margin-top: 20px;
+}
+
+@media (max-width: 900px) {
+  .info-container {
+    margin: 20px;
+    /* gap: 20px; */
+  }
+
+  @media (max-width: 900px) {
+    .infoBlog {
+      top: 20%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      height: 100px;
+      /* width: 350px; */
+      max-width: 85%;
+    }
+    .infoFaker {
+      overflow: auto;
+      position: absolute;
+      top: 64%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 85%;
+      max-height: 71%;
+      padding: 15px;
+    }
+
+    .infoS4 {
+      position: absolute;
+      top: 160%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 90%;
+      padding: 15px;
+    }
+
+    .infoAnaya {
+      position: absolute;
+      top: 180%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 90%;
+      padding: 15px;
+    }
+
+    .infoLoveletter {
+      position: absolute;
+      top: 240%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 90%;
+      padding: 15px;
+    }
+
+    .infoRayan {
+      position: absolute;
+      top: 280%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 90%;
+      padding: 15px;
+    }
+
+    .infoArch {
+      position: absolute;
+      top: 340%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 90%;
+      padding: 15px;
+    }
+  }
+
+  .fakerGod {
+    font-size: 10px;
+  }
+}
+@media (max-width: 411px) {
+  .infoBlog {
+    max-width: 351px;
+  }
+  .infoFaker {
+    max-width: 351px;
+    overflow: auto;
+  }
+
+  .infoS4,
+  .infoAnaya {
+    max-width: 351px;
+  }
 }
