@@ -51,6 +51,7 @@ header {
   text-align: center;
   font-size: 10px;
   margin-bottom: 15px;
+  z-index: 999999999;
 }
 
 .logo {
