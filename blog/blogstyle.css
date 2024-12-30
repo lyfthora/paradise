@@ -2,6 +2,13 @@
   background-color: initial;
 }
 
+
+.info-container {
+  display: grid; 
+  grid-template-columns: 1fr; 
+  gap: 35px; 
+  margin: 50px; 
+}
 /* faker */
 
 .infoFaker {
@@ -10,12 +17,16 @@
   padding: 20px 20px;
   width: 600px;
   z-index: 2;
-  position: absolute;
-  top: 62%;
+  position: relative;
+  top: 68%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
+.fakerGod {
+  font-size: 12px;
+  text-align: initial;
+}
 /* s4 */
 
 .infoS4 {
@@ -24,8 +35,8 @@
   padding: 20px 20px;
   width: 600px;
   z-index: 2;
-  position: absolute;
-  top: 124%;
+  position: relative;
+  top: 78%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
@@ -47,14 +58,14 @@
   padding: 20px 20px;
   width: 600px;
   z-index: 2;
-  position: absolute;
-  top: 174%;
+  position: relative;
+  top: 85%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .byox {
-  font-size: 11px;
+  font-size: 12px;
 }
 
 /* loveletter */
@@ -65,8 +76,8 @@
   padding: 20px 20px;
   width: 600px;
   z-index: 2;
-  position: absolute;
-  top: 250%;
+  position: relative;
+  top: 62.7%;
   left: 50%;
   transform: translate(-50%, -50%);
   /* overflow: scroll; */
@@ -76,7 +87,7 @@
 code {
   /* letter-spacing: 0.1em;
   text-align: left; */
-  font-size: 11px;
+  font-size: 12px;
   text-align: justify;
 }
 .pruebaxd {
@@ -104,26 +115,81 @@ code {
   padding: 20px 20px;
   width: 600px;
   z-index: 2;
-  position: absolute;
-  top: 329%;
+  position: relative;
+  top: 79%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
 .brayan {
   letter-spacing: -0.01em;
-  font-size: 11px;
+  font-size: 12px;
 }
 .brayan b {
   letter-spacing: -0.01em;
 }
+
+/* arch */
+
+.infoArch {
+  background: none;
+  border: 1px solid white;
+  padding: 20px 20px;
+  width: 600px;
+  z-index: 2;
+  position: relative;
+  top: 64%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.archbtw{
+  /* letter-spacing: 2px; */
+  /* text-align: justify;  braahhhhhhhhhh*/
+  font-size: 12px;
+}
+.archbtw b{
+  color: aqua;
+}
+
+.neofetchArch {
+ 
+  white-space: pre;
+  border: 1px solid white;
+  position: relative;
+  max-width: 100%;
+  margin: 15px auto;
+  background-color: #000000;
+  color: white;
+  /* border-radius: 5px; */
+  /* max-width: 90%; */
+
+}
+
+.neofetch-text {
+  font-family: "IBM Plex Mono", monospace;
+    white-space: pre;
+    font-size: 10px;
+    position: relative;  
+    margin: 15px 0px 0px -30px;
+    padding: 1px;
+    color: white;
+    
+/* text-align: justify; brahhhh */
+    height: 346px;
+    /* max-width: 90%; */
+    
+    letter-spacing: 1px;
+}
+
+
 .date {
-  font-size: 9px;
+  font-size: 10px;
   line-height: 0px;
   margin: 0px;
 }
 .author {
-  font-size: 16px;
+  font-size: 14px;
   line-height: 40px;
   padding-bottom: 5px;
   margin: 0px;
