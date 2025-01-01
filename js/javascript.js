@@ -1,5 +1,5 @@
 const typewriterText = document.querySelector(".type");
-const phrases = ["\u00A0 © paradise.pw 2024", "\u00A0 one step beyond"];
+const phrases = ["\u00A0 © paradise.pw 2025", "\u00A0 one step beyond"];
 
 let phraseIndex = 0;
 let characterIndex = 0;
