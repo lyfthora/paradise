@@ -306,7 +306,8 @@ h5 {
       /* width: 350px; */
       max-width: 85%;
     }
-    .infoFaker {
+
+    .infoManuscrito {
       overflow: auto;
       position: absolute;
       top: 64%;
@@ -316,6 +317,7 @@ h5 {
       max-height: 71%;
       padding: 15px;
     }
+    
 
     .infoS4 {
       position: absolute;
@@ -361,6 +363,17 @@ h5 {
       max-width: 90%;
       padding: 15px;
     }
+
+    .infoFaker {
+      overflow: auto;
+      position: absolute;
+      top: calc(634% + 100% + 25px);
+      left: 50%;
+      transform: translate(-50%, -50%);
+      max-width: 85%;
+      max-height: 71%;
+      padding: 15px;
+    }
   }
 
   .neofetchArch {
@@ -392,15 +405,18 @@ h5 {
   .infoBlog {
     max-width: 351px;
   }
-  .infoFaker {
+  .infoManuscrito {
     margin-top: 25px;
     max-width: 351px;
     overflow: auto;
   }
+  .infoFaker{
+    margin-top: 25px;
+  }
   /* .infoLoveletter {
     overflow: auto;
   } */
-
+  .infoFaker,
   .infoS4,
   .infoAnaya,
   .infoLoveletter,
@@ -413,7 +429,7 @@ h5 {
     width: 100%;
     color: white;
     text-align: center;
-    top: 699%;
+    top: 775%;
     font-size: 10px;
     padding: 10px;
     margin-top: 20px;
