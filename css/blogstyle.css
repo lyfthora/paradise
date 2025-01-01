@@ -21,25 +21,66 @@
   margin: 50px;
   margin-bottom: 125px;
 }
-/* faker */
 
-.infoFaker {
-  background: none;
-  max-width: 90%;
+/* manuscrito  */
+
+.manuscrito-container {
+  display: flex;
+  justify-content: space-around;
+  /* background-image: url("../gif/bg-black2.gif"); */
+  /* background-image: url("../gif/bg.gif"); */
+}
+.infoManuscrito {
+  /* background: none; */
   border: 1px solid white;
   padding: 20px 20px;
   width: 600px;
   z-index: 2;
   position: relative;
-  top: 68%;
+  top: 77%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-.fakerGod {
+.manuscrito {
+  border: 1px solid white;
+  background-color: #ffffff;
+  width: 180px;
+  background-image: url("../gif/bg-black2.gif");
+  z-index: 4;
+}
+
+.escritoPorDios {
+  z-index: 3;
+
   font-size: 12px;
   text-align: initial;
+  margin: 20px;
+  overflow-wrap: break-word;
+  word-break: break-all;
 }
+
+.dioses {
+  background-color: #ffffff;
+  background-image: url("../gif/bg-black2.gif");
+  border: 1px solid white;
+  width: 180px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.nombreDios {
+  font-size: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* text-align: center; */
+}
+.nombreDios > span {
+  margin-bottom: 25px;
+}
+
 /* s4 */
 
 .infoS4 {
@@ -193,6 +234,24 @@ code {
   letter-spacing: 1px;
 }
 
+/* faker */
+
+.infoFaker {
+  background: none;
+  max-width: 90%;
+  border: 1px solid white;
+  padding: 20px 20px;
+  width: 600px;
+  z-index: 2;
+  position: relative;
+  top: 68%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.fakerGod {
+  font-size: 12px;
+  text-align: initial;
+}
 .date {
   font-size: 10px;
   line-height: 0px;
