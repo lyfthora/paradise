@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   function redirectToIndex() {
-    window.location.href = "index.html";
+    window.location.href = "https://rttnparadise.vercel.app";
   }
 
   document.addEventListener("keydown", function (e) {
